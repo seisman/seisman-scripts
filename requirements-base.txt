@@ -1,0 +1,29 @@
+# Packages for the base environment
+# general purpose
+jupyter
+jupyterlab
+ipython
+
+# scientific computing
+numpy
+scipy
+pandas
+xarray
+netCDF4
+
+# plotting
+matplotlib
+
+# documentation
+sphinx
+sphinx_rtd_theme
+
+# seismological researches
+obspy
+
+# development
+black
+blackdoc
+isort
+pylint
+pytest
