@@ -9,13 +9,14 @@ gmt begin seismolab-members png
     gmt basemap -Lg85/17.5+c17.5+w800k+f+u --FONT_ANNOT_PRIMARY=4p
     gmt plot CN-border-La.gmt -W0.1p
 
-	echo 114.41 30.52 | gmt plot -Sa0.2c -Gred
-	gmt plot -St0.2c -Gblack <<- EOF
+	gmt plot -St0.1c -Gblack <<- EOF
 	117.02 32.59  # Huainan
 	104.07 30.66  # Chengdu
 	114.48 36.61  # Handan
 	105.82 32.45  # Guangyuan
+	114.41 30.52  # Wuhan
 	EOF
+	echo 114.41 30.52 | gmt plot -Sa0.2c -Gred -t50
 
     # 绘制南海区域
     gmt inset begin -DjRB+w1.8c/2.2c -F+p0.5p
