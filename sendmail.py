@@ -32,8 +32,7 @@ host = "mail.ustc.edu.cn"
 port = 25
 
 # Email address of different earthquake data center
-recipient = 'breq_fast@iris.washington.edu'   # IRIS BREQ_FAST
-# recipient = 'autodrm@seismo.nrcan.gc.ca'    # Canada AutoDRM
+recipient = 'autodrm@seismo.nrcan.gc.ca'    # Canada AutoDRM
 
 # DO NOT MODIFY BELOW.
 if len(sys.argv) == 1:
