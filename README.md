@@ -6,6 +6,7 @@
 - [catalog4human.py](catalog4human.py): Convert catalog of different formats to human-friendly format.
 - [seismolab-members.sh](seismolab-members.sh): Plot a map showing the geographic
   distribution of my lab members's hometown.
+- [setup-miniforge.sh]: Install miniforge.
 
 ## Deprecated scripts
 
