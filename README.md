@@ -6,7 +6,7 @@
 - [catalog4human.py](catalog4human.py): Convert catalog of different formats to human-friendly format.
 - [seismolab-members.sh](seismolab-members.sh): Plot a map showing the geographic
   distribution of my lab members's hometown.
-- [setup-miniforge.sh]: Install miniforge.
+- [setup-miniforge.sh](setup-miniforge.sh): Install miniforge.
 
 ## Deprecated scripts
 
@@ -14,4 +14,3 @@
   [**Deprecated. Recommend [Tectonic](https://tectonic-typesetting.github.io/en-US/).**]
 - [setup-miniconda.sh](setup-miniconda.sh): Install miniconda and some Python packages.
   [**Deprecated. Recommend [Miniforge](https://github.com/conda-forge/miniforge).]**]
-

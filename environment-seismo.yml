@@ -1,0 +1,33 @@
+#
+# Conda environment file for daily seismology research.
+#
+# Usage: 
+#   
+#     mamba env create --file environment-seismo.yml
+# 
+# Author: Dongdong Tian @ CUG
+# Revisions History:
+#   2024-11-27  D.T. Initial version.
+# 
+name: seismo
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  # Scientific Python Ecosystem
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  # Visualization
+  - gmt
+  - matplotlib
+  - pygmt
+  # IDE
+  - ipython
+  - jupyterlab
+  # Formatting
+  - ruff
+  # Seismology
+  - obspy
